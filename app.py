@@ -21,7 +21,7 @@ varlist=['TotalPop', 'Men', 'Women', 'Hispanic',
        'ChildPoverty', 'Professional', 'Service', 'Office', 'Construction',
        'Production', 'Drive', 'Carpool', 'Transit', 'Walk', 'OtherTransp',
        'WorkAtHome', 'MeanCommute', 'Employed', 'PrivateWork', 'PublicWork',
-       'SelfEmployed', 'FamilyWork', 'Unemployment', 'RUCC_2013']
+       'SelfEmployed', 'FamilyWork', 'Unemployment']
 
 df=pd.read_pickle('resources/va-stats.pkl')
 
