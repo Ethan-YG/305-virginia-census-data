@@ -34,7 +34,7 @@ app.title=tabtitle
 ########### Layout
 
 app.layout = html.Div(children=[
-    html.H1('Ethan Modified Virginia Census Data 2017'),
+    html.H1('Ethan Modified U.S. Census Data 2017'),
     # Dropdowns
     html.Div(children=[
         # left side
