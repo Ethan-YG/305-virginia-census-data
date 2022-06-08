@@ -34,12 +34,12 @@ app.title=tabtitle
 ########### Layout
 
 app.layout = html.Div(children=[
-    html.H1('Virginia Census Data 2017'),
+    html.H1('Ethan Modified Virginia Census Data 2017'),
     # Dropdowns
     html.Div(children=[
         # left side
         html.Div([
-                html.H6('Select census variable:'),
+                html.H3('Select census variable:'),
                 dcc.Dropdown(
                     id='stats-drop',
                     options=[{'label': i, 'value': i} for i in varlist],
